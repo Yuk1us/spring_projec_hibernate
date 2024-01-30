@@ -1,0 +1,74 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="/api">
+    <output-path>$PROJECT_DIR$/out/artifacts/_api</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring_project_hibernate" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.18.30" />
+          <element id="library" level="project" name="Maven: org.hibernate.common:hibernate-commons-annotations:6.0.6.Final" />
+          <element id="library" level="project" name="Maven: org.hibernate.orm:hibernate-core:6.4.0.Final" />
+          <element id="library" level="project" name="Maven: jakarta.persistence:jakarta.persistence-api:3.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.transaction:jakarta.transaction-api:2.0.1" />
+          <element id="library" level="project" name="Maven: org.jboss.logging:jboss-logging:3.5.0.Final" />
+          <element id="library" level="project" name="Maven: io.smallrye:jandex:3.1.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml:classmate:1.5.1" />
+          <element id="library" level="project" name="Maven: net.bytebuddy:byte-buddy:1.14.7" />
+          <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:4.0.0" />
+          <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:2.1.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-runtime:4.0.2" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:jaxb-core:4.0.2" />
+          <element id="library" level="project" name="Maven: org.eclipse.angus:angus-activation:2.0.0" />
+          <element id="library" level="project" name="Maven: org.glassfish.jaxb:txw2:4.0.2" />
+          <element id="library" level="project" name="Maven: com.sun.istack:istack-commons-runtime:4.1.1" />
+          <element id="library" level="project" name="Maven: jakarta.inject:jakarta.inject-api:2.0.1" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.13.0" />
+          <element id="library" level="project" name="Maven: org.postgresql:postgresql:42.7.1" />
+          <element id="library" level="project" name="Maven: org.checkerframework:checker-qual:3.41.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.15.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.3" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-jpa:3.2.0" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:3.2.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:6.1.0" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-observation:1.12.0" />
+          <element id="library" level="project" name="Maven: io.micrometer:micrometer-commons:1.12.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:6.1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:6.1.0" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:6.1.0" />
+          <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:2.0.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:2.0.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:6.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:6.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:6.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-orm:6.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:6.1.1" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:6.1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:6.1.2" />
+          <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.5" />
+          <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.19" />
+          <element id="library" level="project" name="Maven: javax.validation:validation-api:2.0.1.Final" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.20.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="spring-project/web/Web15" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web5" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web4" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web10" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web7" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web6" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web12" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web9" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web11" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web8" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web14" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web13" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web3" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web2" />
+      <element id="javaee-facet-resources" facet="spring-project/web/Web" />
+    </root>
+  </artifact>
+</component>

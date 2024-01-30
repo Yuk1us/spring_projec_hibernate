@@ -1,0 +1,6 @@
+hibernate.connection.dialect=
+hibernate.connection.url=
+hibernate.connection.username=
+hibernate.connection.password=
+hibernate.connection.driver_class=
+hibernate.show_sql=

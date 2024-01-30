@@ -1,0 +1,6 @@
+1.05v Changes:
+1)Tomcat moved int root directory in response to a lot of bugs
+2)Added AOP
+3)UserRepository Rewrited in response to bugs
+4)More Mockito "Tests"
+5)Environment Added for Configuration

@@ -6,8 +6,6 @@ import org.artyomnikitin.spring.dao.UserRepositoryImpl;
 import org.artyomnikitin.spring.dto.User;
 
 import org.artyomnikitin.spring.dto.UserBody;
-
-
 import org.artyomnikitin.spring.service.UserService;
 import org.hibernate.Session;
 import org.hibernate.exception.ConstraintViolationException;
@@ -22,6 +20,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import org.mockito.junit.MockitoJUnitRunner;
+
+
 
 
 import java.util.List;
@@ -39,6 +39,7 @@ public class AppTest{
 
     User after = new User("FakeUser", "NewFakePassword");//Пользователь после обновления пароля
     UserBody negativeUserBody = new UserBody("FakeUser", "misspelledPass", "NewFakePassword");
+
 
     @Mock
     private UserRepositoryImpl userRepositoryImpl;
@@ -67,11 +68,11 @@ public class AppTest{
 
 
     }
+
     @After
     public void destroy(){
         userRepositoryImpl.delete(user);
     }
-
 
     /**(1) Test SighUp Logic*/
     @Test
@@ -121,6 +122,5 @@ public class AppTest{
     public void negativeTestUpdate(){
         assertEquals(after, userService.update(userBody));
     }
-
 
 }
